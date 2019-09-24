@@ -1,0 +1,119 @@
+body {
+    background-image: url(titles.jpg);
+    font-family:'Times New Roman', Times, serif;
+ }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Animation for Background image*/
+@keyframes example {
+  from {background-image:url(titles.jpg);}
+  to {background-image: url(abstract-3d-3919.jpg);}
+}
+
+body {
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+ /* Style for Index*/
+ h1,p {
+     color: white;
+     line-height: 25px;
+     font-family:'Times New Roman', Times, serif;
+     
+ }
+
+ h1 {
+     text-shadow: 2px 2px 8px #FF0000;
+ }
+
+ .about {
+
+    width: 250px;
+    height: 250px;
+ }
+
+/* Style for Contact*/
+.title {
+ font-family:'Times New Roman', Times, serif;
+   text-align: center; 
+   color: white;
+}
+
+.picture {
+    border-radius:50%;
+    width: 200px;
+    height:200px;
+}
+
+.resume {
+    padding: 15px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: crimson;
+    opacity: 0.6;
+  filter: alpha(opacity=60);
+ }
+
+ form {
+   background-color: crimson;
+   opacity: 0.6;
+  filter: alpha(opacity=60);
+  padding-left: 70px;
+ }
+
+ #submit {
+     background-color: darkred;
+     color: white;
+     margin-left: 25%;
+ }
+
+ h6 {
+     color: white;
+ }
+
+ /* Style for Portfolio */
+
+ img {
+     width: 370px;
+     height: 300px;
+     
+ }
+
+ .col-lg-4 {
+     padding-left: 30px;
+ }
+
+ .gallery:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+ }
+
+ .nested {
+     width: 370x;
+     height: 150px;
+ }
+
+.desc {
+    color: white;
+    background-color: black;
+    width: 370px;
+    font-size: 18px;
+    padding: 5px;
+    opacity: 0.6;
+  filter: alpha(opacity=60);
+}  
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+}
+
